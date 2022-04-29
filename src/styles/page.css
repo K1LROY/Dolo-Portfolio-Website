@@ -1,0 +1,30 @@
+.mh-service .mh-service-item {
+  padding: 20px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.mh-service .mh-service-item .fa {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 16px;
+}
+
+.mh-service .mh-service-item .fa.purple-color {
+  color: #9774fa;
+}
+
+.mh-service .mh-service-item .fa.iron-color {
+  color: #ed7256;
+}
+
+.mh-service .mh-service-item .fa.sky-color {
+  color: #2796e2;
+}
+
+.mh-service h3 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 18px;
+  font-size: 25px;
+  line-height: 34px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../components/contents/About";
+import Page from "../components/contents/Page";
 import Header from "../components/Header";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Header />
       <About />
+      <Page />
     </div>
   );
 }
