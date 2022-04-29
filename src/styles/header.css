@@ -1,0 +1,55 @@
+.header {
+  position: relative;
+  transition: all 0.7s;
+  z-index: 9;
+}
+
+.header .wrap {
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header.sticky {
+  width: 100%;
+  position: fixed;
+  background-color: #212529;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+}
+
+.header .logo {
+  margin: 0;
+  padding: 16px 0;
+}
+
+.header .logo a,
+.header .logo a img {
+  display: block;
+}
+
+.header .logo img {
+  width: 190px;
+}
+
+.header .menu ul {
+  display: flex;
+}
+
+.header .menu li {
+  padding: 16px;
+}
+
+.header .menu a {
+  font-size: 1.2rem;
+  color: white;
+  padding: 8px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.header .menu a:hover {
+  color: #24cdd5;
+}
