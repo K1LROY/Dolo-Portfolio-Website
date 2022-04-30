@@ -12,58 +12,70 @@ export default function Skills() {
     }).init();
   }, []);
   return (
-    <Element class="mh-skills" id="skills">
-      <div class="container spaceContent">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="mh-skills-inner">
-              <div class="mh-professional-skill">
+    <Element className="mh-skills" id="skills">
+      <div className="container spaceContent">
+        <div className="row">
+          <div className="col-sm-12 col-md-6">
+            <div className="mh-skills-inner">
+              <div className="mh-professional-skill">
                 <h3>Technical Skills</h3>
-                <div class="each-skills">
-                  <div class="candidatos">
-                    <div class="parcial">
-                      <div class="info">
-                        <div class="nome">Javascript</div>
-                        <div class="percentage-num">86%</div>
+                <div className="each-skills">
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">Javascript</div>
+                        <div className="percentage-num">86%</div>
                       </div>
-                      <div class="progressBar">
-                        <div class="percentagem" style={{ width: "86%" }}></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="candidatos">
-                    <div class="parcial">
-                      <div class="info">
-                        <div class="nome">PHP</div>
-                        <div class="percentage-num">46%</div>
-                      </div>
-                      <div class="progressBar">
-                        <div class="percentagem" style={{ width: "46%" }}></div>
+                      <div className="progressBar">
+                        <div
+                          className="percentagem"
+                          style={{ width: "86%" }}
+                        ></div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="candidatos">
-                    <div class="parcial">
-                      <div class="info">
-                        <div class="nome">C++</div>
-                        <div class="percentage-num">38%</div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">PHP</div>
+                        <div className="percentage-num">46%</div>
                       </div>
-                      <div class="progressBar">
-                        <div class="percentagem" style={{ width: "38%" }}></div>
+                      <div className="progressBar">
+                        <div
+                          className="percentagem"
+                          style={{ width: "46%" }}
+                        ></div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="candidatos">
-                    <div class="parcial">
-                      <div class="info">
-                        <div class="nome">PHP</div>
-                        <div class="percentage-num">17%</div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">C++</div>
+                        <div className="percentage-num">38%</div>
                       </div>
-                      <div class="progressBar">
-                        <div class="percentagem" style={{ width: "17%" }}></div>
+                      <div className="progressBar">
+                        <div
+                          className="percentagem"
+                          style={{ width: "38%" }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">PHP</div>
+                        <div className="percentage-num">17%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div
+                          className="percentagem"
+                          style={{ width: "17%" }}
+                        ></div>
                       </div>
                     </div>
                   </div>
@@ -72,10 +84,10 @@ export default function Skills() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6">
-            <div class="mh-professional-skills">
+          <div className="col-sm-12 col-md-6">
+            <div className="mh-professional-skills">
               <h3>Professional Skills</h3>
-              <ul class="mh-professional-progress">
+              <ul className="mh-professional-progress">
                 <li className="col-sm-6">
                   <div>
                     <CircularProgressbar
@@ -91,7 +103,7 @@ export default function Skills() {
                     />
                   </div>
 
-                  <div class="pr-skill-name">Communication</div>
+                  <div className="pr-skill-name">Communication</div>
                 </li>
 
                 <li className="col-sm-6">
@@ -108,7 +120,7 @@ export default function Skills() {
                       })}
                     />
                   </div>
-                  <div class="pr-skill-name">Team work</div>
+                  <div className="pr-skill-name">Team work</div>
                 </li>
 
                 <li className="col-sm-6">
@@ -125,7 +137,7 @@ export default function Skills() {
                       })}
                     />
                   </div>
-                  <div class="pr-skill-name">Project Management</div>
+                  <div className="pr-skill-name">Project Management</div>
                 </li>
 
                 <li className="col-sm-6">
@@ -142,7 +154,7 @@ export default function Skills() {
                       })}
                     />
                   </div>
-                  <div class="pr-skill-name">Creativity</div>
+                  <div className="pr-skill-name">Creativity</div>
                 </li>
               </ul>
             </div>

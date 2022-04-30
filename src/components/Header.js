@@ -74,15 +74,15 @@ $(document).ready(function () {
 export default function Header() {
   return (
     <div>
-      <Element class="main" id="main">
-        <header class="header">
-          <div class="wrap d-flex">
-            <h1 class="logo">
+      <Element className="main" id="main">
+        <header className="header">
+          <div className="wrap d-flex">
+            <h1 className="logo">
               <NavLink to="">
                 <img src="images/logo.png" alt="" />
               </NavLink>
             </h1>
-            <nav class="menu">
+            <nav className="menu">
               <ul>
                 <li>
                   <ScrollLink
@@ -154,14 +154,14 @@ export default function Header() {
             </nav>
           </div>
 
-          <Link to="#" class="sidemenu-toggler">
+          <Link to="#" className="sidemenu-toggler">
             <span></span>
             <span></span>
             <span></span>
           </Link>
 
-          <div class="sidemenu">
-            <Link to="#" class="close"></Link>
+          <div className="sidemenu">
+            <Link to="#" className="close"></Link>
             <nav>
               <ul>
                 <li>
@@ -233,7 +233,7 @@ export default function Header() {
               </ul>
             </nav>
             <footer>
-              <div class="social">
+              <div className="social">
                 <NavLink to="">
                   <img src="images/facebook.png" alt="" />
                 </NavLink>

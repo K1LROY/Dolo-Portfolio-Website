@@ -10,19 +10,19 @@ export default function Page() {
     }).init();
   }, []);
   return (
-    <Element class="mh-service text-white" id="pages">
-      <div class="container spaceContent">
-        <div class="row">
-          <div class="col-sm-12 text-center">
+    <Element className="mh-service text-white" id="pages">
+      <div className="container spaceContent">
+        <div className="row">
+          <div className="col-sm-12 text-center">
             <h3>What I do</h3>
           </div>
           <div
-            class="col-sm-4 wow fadeInUp"
+            className="col-sm-4 wow fadeInUp"
             data-wow-duration="1.2s"
             data-wow-delay="1.2s"
           >
-            <div class="mh-service-item">
-              <i class="fa fa-bullseye purple-color"></i>
+            <div className="mh-service-item">
+              <i className="fa fa-bullseye purple-color"></i>
               <h3>UI Design</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
@@ -33,12 +33,12 @@ export default function Page() {
           </div>
 
           <div
-            class="col-sm-4 wow fadeInUp"
+            className="col-sm-4 wow fadeInUp"
             data-wow-duration="1.2s"
             data-wow-delay="1.2s"
           >
-            <div class="mh-service-item">
-              <i class="fa fa-code iron-color"></i>
+            <div className="mh-service-item">
+              <i className="fa fa-code iron-color"></i>
               <h3>Web Development</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
@@ -49,12 +49,12 @@ export default function Page() {
           </div>
 
           <div
-            class="col-sm-4 wow fadeInUp"
+            className="col-sm-4 wow fadeInUp"
             data-wow-duration="1.2s"
             data-wow-delay="1.2s"
           >
-            <div class="mh-service-item">
-              <i class="fa fa-object-ungroup sky-color"></i>
+            <div className="mh-service-item">
+              <i className="fa fa-object-ungroup sky-color"></i>
               <h3>App Development</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
@@ -67,15 +67,15 @@ export default function Page() {
       </div>
 
       <br />
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div
-            class="col-sm-4 wow fadeInUp"
+            className="col-sm-4 wow fadeInUp"
             data-wow-duration="1.2s"
             data-wow-delay="1.2s"
           >
-            <div class="mh-service-item">
-              <i class="fa fa-bullseye purple-color"></i>
+            <div className="mh-service-item">
+              <i className="fa fa-bullseye purple-color"></i>
               <h3>UI Design</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
@@ -86,12 +86,12 @@ export default function Page() {
           </div>
 
           <div
-            class="col-sm-4 wow fadeInUp"
+            className="col-sm-4 wow fadeInUp"
             data-wow-duration="1.2s"
             data-wow-delay="1.2s"
           >
-            <div class="mh-service-item">
-              <i class="fa fa-code iron-color"></i>
+            <div className="mh-service-item">
+              <i className="fa fa-code iron-color"></i>
               <h3>Web Development</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
@@ -102,12 +102,12 @@ export default function Page() {
           </div>
 
           <div
-            class="col-sm-4 wow fadeInUp"
+            className="col-sm-4 wow fadeInUp"
             data-wow-duration="1.2s"
             data-wow-delay="1.2s"
           >
-            <div class="mh-service-item">
-              <i class="fa fa-object-ungroup sky-color"></i>
+            <div className="mh-service-item">
+              <i className="fa fa-object-ungroup sky-color"></i>
               <h3>App Development</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
