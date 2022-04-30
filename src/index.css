@@ -26,6 +26,9 @@ ul {
 body {
   background: #212529;
   height: 2000px;
+  color: #fff;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif;
 }
 
 ol,
@@ -40,12 +43,6 @@ img {
 
 a:hover {
   text-decoration: none;
-}
-
-body {
-  font-family: "Oswald", sans-serif;
-  color: #26313c;
-  line-height: 1.5;
 }
 
 ul {

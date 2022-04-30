@@ -68,12 +68,8 @@ export default function Experience() {
                   <div class="mh-eduyear">2016-2019</div>
                   <span>Responsibility</span>
                   <ul class="work-responsibility">
-                    <li>
-                      <i class="fa fa-circle"></i> Technical Intern
-                    </li>
-                    <li>
-                      <i class="fa fa-circle"></i> Machine maintenace
-                    </li>
+                    <li>Technical Intern</li>
+                    <li>Machine maintenace</li>
                   </ul>
                 </div>
 
@@ -84,12 +80,8 @@ export default function Experience() {
                   <div class="mh-eduyear">2020-2021</div>
                   <span>Responsibility</span>
                   <ul class="work-responsibility">
-                    <li>
-                      <i class="fa fa-tick"></i> Make Bakery
-                    </li>
-                    <li>
-                      <i class="fa fa-tick"></i> Serves beverages such as Coffee
-                    </li>
+                    <li>Make Bakery</li>
+                    <li>Serves beverages such as Coffee</li>
                   </ul>
                 </div>
 
@@ -100,13 +92,8 @@ export default function Experience() {
                   <div class="mh-eduyear">2020-2022</div>
                   <span>Responsibility</span>
                   <ul class="work-responsibility">
-                    <li>
-                      <i class="fa fa-tick"></i> Write a plan the Structure
-                    </li>
-                    <li>
-                      <i class="fa fa-tick"></i> According to the Customer's
-                      Order
-                    </li>
+                    <li>Write a plan the Structure</li>
+                    <li>According to the Customer's Order</li>
                   </ul>
                 </div>
               </div>
