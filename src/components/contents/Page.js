@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Element } from "react-scroll";
 import "../../styles/page.css";
 import WOW from "wowjs";
 
@@ -9,7 +10,7 @@ export default function Page() {
     }).init();
   }, []);
   return (
-    <div class="mh-service text-white" id="pages">
+    <Element class="mh-service text-white" id="pages">
       <div class="container spaceContent">
         <div class="row">
           <div class="col-sm-12 text-center">
@@ -117,6 +118,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

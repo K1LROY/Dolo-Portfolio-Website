@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../components/contents/About";
 import Blog from "../components/contents/Blog";
+import Contact from "../components/contents/Contact";
 import Experience from "../components/contents/Experience";
 import Page from "../components/contents/Page";
 import Portfolio from "../components/contents/Portfolio";
@@ -19,6 +20,7 @@ export default function Home() {
       <Portfolio />
       <Pricing />
       <Blog />
+      <Contact />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Element } from "react-scroll";
 import "../../styles/experience.css";
 
 import WOW from "wowjs";
@@ -11,7 +12,7 @@ export default function Experience() {
     }).init();
   }, []);
   return (
-    <div class="mh-experience" id="experience">
+    <Element class="mh-experience" id="experience">
       <div class="container spaceContent">
         <div class="row">
           <div class="col-smd-12 col-md-6">
@@ -101,6 +102,6 @@ export default function Experience() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

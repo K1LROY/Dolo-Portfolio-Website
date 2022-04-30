@@ -1,9 +1,10 @@
 import React from "react";
+import { Element } from "react-scroll";
 import "../../styles/portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div class="mh-portfolio" id="gallery">
+    <Element class="mh-portfolio" id="gallery">
       <div class="container spaceContent">
         <div class="row">
           <div class="section-title col-sm-12">
@@ -123,6 +124,6 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Element } from "react-scroll";
 import WOW from "wowjs";
 
 import "../../styles/about.css";
@@ -12,7 +13,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="about" id="about">
+    <Element className="about" id="about">
       <div className="container spaceContent">
         <div className="row">
           <div
@@ -70,6 +71,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

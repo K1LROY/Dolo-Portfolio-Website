@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Element } from "react-scroll";
 import "../../styles/profile.css";
 import WOW from "wowjs";
 
@@ -9,7 +10,7 @@ export default function Profile() {
     }).init();
   }, []);
   return (
-    <div class="home container text-white" id="home">
+    <Element class="home container text-white" id="home">
       <div class="row">
         <div
           class="col-md-6 wow fadeInUp"
@@ -53,6 +54,6 @@ export default function Profile() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

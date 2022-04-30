@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Element } from "react-scroll";
 import "../../styles/blog.css";
 
 export default function Blog() {
   return (
-    <div class="mh-blog" id="blog">
+    <Element class="mh-blog" id="blog">
       <div class="container spaceContent">
         <div class="row">
           <div class="col-sm-12 mb-5">
@@ -95,6 +96,6 @@ export default function Blog() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

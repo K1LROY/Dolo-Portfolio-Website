@@ -1,10 +1,11 @@
 import React from "react";
+import { Element } from "react-scroll";
 import { Link } from "react-router-dom";
 import "../../styles/pricing.css";
 
 export default function Pricing() {
   return (
-    <div class="pricing" id="pricing">
+    <Element class="pricing" id="pricing">
       <div class="container spaceContent">
         <div class="row">
           <div class="col-sm-12 text-white text-left mb-5">
@@ -65,6 +66,6 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

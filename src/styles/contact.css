@@ -1,0 +1,168 @@
+.mh-footer ::-webkit-input-placeholder {
+  opacity: 0.9;
+}
+.mh-footer :-ms-input-placeholder {
+  opacity: 0.9;
+}
+.mh-footer ::-ms-input-placeholder {
+  opacity: 0.9;
+}
+.mh-footer ::placeholder {
+  opacity: 0.9;
+}
+
+.mh-footer .form-control {
+  padding: 20px;
+  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.mh-footer .form-control:focus {
+  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  border-color: transparent;
+}
+
+.mh-footer .contact-message {
+  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  outline: 0;
+}
+
+.mh-footer .contact-message:focus {
+  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8),
+    0 0px 1px 1px rgba(255, 255, 255, 0.8);
+  border-color: transparent;
+}
+
+/*
+      ==============
+         MAP
+      ==============
+  */
+.mh-map {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.mh-map #mh-map {
+  height: 400px;
+  width: 100%;
+}
+
+/*
+      ============
+      Footer Address
+      ==============
+  */
+.mh-footer-address {
+  margin-bottom: 60px;
+}
+
+.mh-footer-address .mh-address-footer-item {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.mh-footer-address .mh-address-footer-item h4 {
+  margin-bottom: 20px;
+}
+
+.mh-footer-address .mh-address-footer-item address {
+  margin-bottom: 0;
+}
+
+.mh-footer-address .mh-address-footer-item .each-icon {
+  margin-bottom: 30px;
+}
+
+.mh-footer-address .mh-address-footer-item .each-icon .fa {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 20px;
+  border-color: #0bceaf;
+}
+
+.form-control {
+  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16),
+    0 0px 2px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16),
+    0 0px 2px 0 rgba(255, 255, 255, 0.12);
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16),
+    0 0px 2px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16),
+    0 0px 2px 0 rgba(255, 255, 255, 0.12);
+  background-color: transparent;
+}
+
+.p-200 {
+  padding: 0 200px;
+}
+
+.image-bg {
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center center;
+}
+.map-image {
+  background-image: url(../../public/images//map-color-overlay.png);
+}
+
+.shadow-1 {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.social-icon li {
+  display: inline-block;
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+.social-icon li a {
+  color: white;
+}
+.mh-copyright p {
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-angle-up {
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  line-height: 42px;
+  text-align: center;
+}

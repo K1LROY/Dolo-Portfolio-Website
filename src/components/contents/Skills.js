@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
+import { Element } from "react-scroll";
 import "react-circular-progressbar/dist/styles.css";
 import "../../styles/skills.css";
 import WOW from "wowjs";
@@ -11,7 +12,7 @@ export default function Skills() {
     }).init();
   }, []);
   return (
-    <div class="mh-skills" id="skills">
+    <Element class="mh-skills" id="skills">
       <div class="container spaceContent">
         <div class="row">
           <div class="col-sm-12 col-md-6">
@@ -148,6 +149,6 @@ export default function Skills() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

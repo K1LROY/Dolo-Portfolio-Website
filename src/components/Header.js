@@ -1,9 +1,13 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import * as Scroll from "react-scroll";
+import { Element } from "react-scroll";
 import "../styles/header.css";
 
 import $ from "jquery";
 import Profile from "./contents/Profile";
+
+const ScrollLink = Scroll.Link;
 
 $(document).ready(function () {
   $(".sidemenu-toggler").click(function () {
@@ -70,7 +74,7 @@ $(document).ready(function () {
 export default function Header() {
   return (
     <div>
-      <div class="main" id="main">
+      <Element class="main" id="main">
         <header class="header">
           <div class="wrap d-flex">
             <h1 class="logo">
@@ -81,34 +85,70 @@ export default function Header() {
             <nav class="menu">
               <ul>
                 <li>
-                  <NavLink class="smooth-scroll" to="#home">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="home"
+                  >
                     Home
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="#about" class="nav-link smooth-scroll">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="about"
+                  >
                     About
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="#pages" class="smooth-scroll">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="pages"
+                  >
                     Pages
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="#skills" class="smooth-scroll">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="skills"
+                  >
                     Skills
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="#gallery" class="smooth-scroll">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="gallery"
+                  >
                     Gallery
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="#mh-contact" class="smooth-scroll">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="mh-contact"
+                  >
                     Contact
-                  </NavLink>
+                  </ScrollLink>
                 </li>
               </ul>
             </nav>
@@ -125,24 +165,70 @@ export default function Header() {
             <nav>
               <ul>
                 <li>
-                  <NavLink to="">Home</NavLink>
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="home"
+                  >
+                    Home
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink class="smooth-scroll" to="#about">
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="about"
+                  >
                     About
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="">Pages</NavLink>
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="pages"
+                  >
+                    Pages
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="">Blog</NavLink>
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="blog"
+                  >
+                    Blog
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="">Gallery</NavLink>
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="gallery"
+                  >
+                    Gallery
+                  </ScrollLink>
                 </li>
                 <li>
-                  <NavLink to="">Contact</NavLink>
+                  <ScrollLink
+                    style={{ cursor: "pointer" }}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    to="mh-contact"
+                  >
+                    Contact
+                  </ScrollLink>
                 </li>
               </ul>
             </nav>
@@ -162,7 +248,7 @@ export default function Header() {
             </footer>
           </div>
         </header>
-      </div>
+      </Element>
       <Profile />
     </div>
   );
