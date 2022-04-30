@@ -34,7 +34,7 @@ export default function Skills() {
                   <div class="candidatos">
                     <div class="parcial">
                       <div class="info">
-                        <div class="nome">Java</div>
+                        <div class="nome">PHP</div>
                         <div class="percentage-num">46%</div>
                       </div>
                       <div class="progressBar">
@@ -46,7 +46,7 @@ export default function Skills() {
                   <div class="candidatos">
                     <div class="parcial">
                       <div class="info">
-                        <div class="nome">Python</div>
+                        <div class="nome">C++</div>
                         <div class="percentage-num">38%</div>
                       </div>
                       <div class="progressBar">
@@ -78,8 +78,8 @@ export default function Skills() {
                 <li className="col-sm-6">
                   <div>
                     <CircularProgressbar
-                      value={66}
-                      text={`${66}%`}
+                      value={70}
+                      text={`${70}%`}
                       styles={buildStyles({
                         pathTransition: "none",
                         textSize: "10px",
@@ -96,8 +96,8 @@ export default function Skills() {
                 <li className="col-sm-6">
                   <div>
                     <CircularProgressbar
-                      value={66}
-                      text={`${66}%`}
+                      value={80}
+                      text={`${80}%`}
                       styles={buildStyles({
                         pathTransition: "none",
                         textSize: "10px",
@@ -113,8 +113,8 @@ export default function Skills() {
                 <li className="col-sm-6">
                   <div>
                     <CircularProgressbar
-                      value={66}
-                      text={`${66}%`}
+                      value={40}
+                      text={`${40}%`}
                       styles={buildStyles({
                         pathTransition: "none",
                         textSize: "10px",
@@ -130,8 +130,8 @@ export default function Skills() {
                 <li className="col-sm-6">
                   <div>
                     <CircularProgressbar
-                      value={66}
-                      text={`${66}%`}
+                      value={80}
+                      text={`${80}%`}
                       styles={buildStyles({
                         pathTransition: "none",
                         textSize: "10px",
